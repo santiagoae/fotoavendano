@@ -1,0 +1,62 @@
+.contenedor-grados{
+    display: grid;
+    grid-auto-flow: dense;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(46rem, 1fr));
+    background-image: url("../assets/fondo.jpg");
+}
+
+.contenedor-grados div{
+    display: flex;
+    flex-direction: column;    
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-between;    
+}
+
+.contenedor-grados div img{    
+    border-radius: 4rem;
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+@media (max-width: 1200px) {
+    .contenedor-grados{
+        
+        grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
+        
+    }
+     
+  }
+  
+  @media (max-width: 992px) {
+    .contenedor-grados{
+        
+        grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+        
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .contenedor-grados{
+        
+        grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+        
+    }  
+  }
+  
+  @media (max-width: 576px) {
+    .contenedor-grados{
+        
+        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+        
+    }   
+  }
+  
+  @media (max-width: 390px) {
+    .contenedor-grados{        
+        grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));        
+    }   
+  }

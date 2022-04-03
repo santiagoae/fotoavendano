@@ -1,0 +1,108 @@
+@import "Comuniones.css";
+@import "Grados.css";
+@import "Bautizos.css";
+@import "Matrimonios.css";
+@import "Quinces.css";
+@import "Publicitarias.css";
+
+.contenedor {
+  display: grid;
+  width: 100%;
+  min-height: 100vh;
+  font-size: 16px;
+  grid-template-rows: 6fr 0.6fr;
+  grid-template-areas:
+    "main "
+    "footer ";
+}
+
+.header {
+  grid-area: header;
+  height: 100%;
+  width: 100%;
+}
+
+
+.main {
+  grid-area: main;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/a/ab/USAF_photographer.jpg");  
+  background-size: cover;
+  background-position: 0% 20%;
+}
+
+.footer {
+  grid-area: footer;
+  display: flex;  
+  color: white;
+  justify-content: space-around;
+  align-items: center;
+
+  /* justify-self: stretch; */
+}
+
+.footer h5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.125em;
+}
+
+h5:hover {
+  color: rgb(95, 66, 177);
+}
+
+img {
+  margin-right: 8px;
+}
+
+.fija {
+  position: fixed;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 1200px) {
+  .contenedor {    
+    font-size: 16px;
+  }
+  .main {    
+    background-position: 50% 20%;
+  } 
+   
+}
+
+@media (max-width: 992px) {
+  .contenedor {    
+    font-size: 14px;
+  }
+  .main {    
+    background-position: 50% 20%;
+  } 
+}
+
+@media (max-width: 768px) {
+  .contenedor {    
+    font-size: 12px;
+  }
+  .main {    
+    background-position: 50% 20%;
+  }  
+}
+
+@media (max-width: 576px) {
+  .contenedor {    
+    font-size: 10px;
+  }
+  .main {    
+    background-position: 50% 20%;
+  }    
+}
+
+@media (max-width: 390px) {
+  .contenedor {    
+    font-size: 8px;
+  }
+  .main {    
+    background-position: 50% 20%;
+  }    
+}

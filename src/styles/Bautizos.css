@@ -1,0 +1,64 @@
+.contenedor-bautizos{
+    display: grid;
+    grid-auto-flow: dense;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
+    background-image: url("../assets/fondo.jpg");
+}
+
+.contenedor-bautizos div{
+    display: flex;
+    flex-direction: column;    
+    padding: 2rem;
+    align-items: center;
+    justify-content: space-between;  
+    
+}
+
+.contenedor-bautizos div img{
+    
+    border-radius: 4rem;
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+@media (max-width: 1200px) {
+    .contenedor-bautizos{
+        
+        grid-template-columns: repeat(auto-fill, minmax(35rem, 1fr));
+        
+    }
+     
+  }
+  
+  @media (max-width: 992px) {
+    .contenedor-bautizos{
+        
+        grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));
+        
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .contenedor-bautizos{
+        
+        grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+        
+    }  
+  }
+  
+  @media (max-width: 576px) {
+    .contenedor-bautizos{
+        
+        grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+        
+    }   
+  }
+  
+  @media (max-width: 390px) {
+    .contenedor-bautizos{        
+        grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));        
+    }   
+  }
