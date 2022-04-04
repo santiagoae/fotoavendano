@@ -4,7 +4,7 @@ import f3 from "../assets/PUBLICITARIA/3.jpg";
 
 function Publicitarias(props) {
   return (
-    <div className="contenedor-quinces">
+    <div className="contenedor-publicitarias">
       <div>
         <img src={f2} alt="..." />
       </div>

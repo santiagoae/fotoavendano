@@ -4,6 +4,7 @@
     grid-auto-rows: auto;
     grid-template-columns: repeat(auto-fill, minmax(40rem, 1fr));
     background-image: url("../assets/fondo.jpg");
+   
 }
 
 .contenedor-comuniones div{
@@ -11,7 +12,8 @@
     flex-direction: column;    
     padding: 2rem;
     align-items: center;
-    justify-content: space-between;  
+    justify-content: space-between;
+    margin-top: 7rem;  
     
 }
 

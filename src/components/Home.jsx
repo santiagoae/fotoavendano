@@ -10,7 +10,7 @@ const Home = () => {
             <img
               src="https://cdn.pixabay.com/photo/2021/06/15/12/17/instagram-6338401_960_720.png"
               alt="Logo IG"
-              height="30px"
+              
             />
           </a>
           @foto_avendano
@@ -23,7 +23,7 @@ const Home = () => {
             <img
               src="https://es.logodownload.org/wp-content/uploads/2018/10/whatsapp-logo-11.png"
               alt="Logo Wpp"
-              height="30px"
+              
             />
           </a>
           310 392 8136
@@ -32,7 +32,7 @@ const Home = () => {
           <img
             src="https://cdn-icons-png.flaticon.com/512/281/281769.png"
             alt="Logo Correo"
-            height="30px"
+            
           />
           fotoavendano@gmail.com
         </h5>

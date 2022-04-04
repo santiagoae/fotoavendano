@@ -1,7 +1,7 @@
 import logonav from "../assets/LPW.png";
 function Nav(props) {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navfija navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
         <a className="navbar-brand" href="/">
           <img src={logonav} alt="logo nav" height="60px" />

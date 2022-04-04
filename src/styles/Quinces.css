@@ -11,7 +11,8 @@
     flex-direction: column;    
     padding: 2rem;
     align-items: center;
-    justify-content: space-between;  
+    justify-content: space-between; 
+    margin-top: 7rem;   
     
 }
 

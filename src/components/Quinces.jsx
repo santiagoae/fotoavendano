@@ -1,6 +1,5 @@
 import f1 from "../assets/15s/1.jpg";
 import f2 from "../assets/15s/2.jpg";
-import f3 from "../assets/15s/3.jpg";
 import f4 from "../assets/15s/4.jpg";
 import f5 from "../assets/15s/5.jpg";
 import f6 from "../assets/15s/6.jpg";
@@ -9,16 +8,14 @@ import f8 from "../assets/15s/8.jpg";
 
 function Quinces(props) {
   return (
-    <div className="contenedor-publicitarias">
+    <div className="contenedor-quinces">
       <div>
         <img src={f1} alt="..." />
       </div>
       <div>
         <img src={f2} alt="..." />
       </div>
-      <div>
-        <img src={f3} alt="..." />
-      </div>
+      
       <div>
         <img src={f4} alt="..." />
       </div>
